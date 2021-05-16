@@ -39,9 +39,24 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
+.pic {
+  display: flex;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
 .pic img {
   border-radius: 50%;
   max-width: 40px;
+}
+
+.intro {
+  font-weight: 600;
+  font-size: 150%;
 }
 
 .verified {
@@ -50,6 +65,7 @@ body {
 
 .review {
   opacity: 0.7;
+  line-height: 1.5;
 }
 
 .attribution {
@@ -81,9 +97,16 @@ body {
 /* Desktop Version */
 @media screen and (min-width:1025px) {
   .container {
+    margin: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+
+  .pic,
+  .intro,
+  .review {
+    margin: 1.5rem;
   }
 
   .daniel {
@@ -97,11 +120,13 @@ body {
   }
 
   .jeanette {
+    margin-top: 0;
     grid-row: 2 / 2;
     grid-column: 1 / 1;
   }
 
   .patrick {
+    margin-top: 0;
     grid-row: 2 / 2;
     grid-column: 2 / 4;
   }
