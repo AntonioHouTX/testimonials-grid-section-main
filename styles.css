@@ -10,8 +10,19 @@ body {
   font-weight: 500;
 }
 
+.pic img {
+  border-radius: 50%;
+}
 
+/* Mobile Version */
+@media screen and (min-width:375px) {
 
+  .container {
+    margin: 2rem 1rem;
+  }
+
+  
+}
 
 .attribution {
   font-size: 11px;
