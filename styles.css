@@ -110,6 +110,9 @@ body {
   }
 
   .daniel {
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 75% 0%;
     grid-row: 1 / 1;
     grid-column: 1 / 3;
   }
