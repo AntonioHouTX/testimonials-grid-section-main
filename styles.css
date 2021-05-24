@@ -127,6 +127,13 @@ body {
   .review {
     margin: 1.5rem;
   }
+  .pic {
+    padding-top: 0;
+  }
+
+  .review {
+    padding-bottom: 0;
+  }
 
   .daniel {
     background-position: 75% 0%;
