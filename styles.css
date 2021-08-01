@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: hsl(0, 0%, 81%);
+  background-color: hsl(210, 46%, 95%);
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
 }
@@ -115,8 +115,15 @@ body {
 
 /* Desktop Version */
 @media screen and (min-width:1025px) {
+  body {
+    margin: 8rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   .container {
-    margin: 2rem;
+    margin: 0rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
