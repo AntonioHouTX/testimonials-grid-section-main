@@ -122,7 +122,9 @@ body {
     align-items: center;
     flex-direction: column;
   }
+
   .container {
+    max-width: 90rem;
     margin: 0rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
